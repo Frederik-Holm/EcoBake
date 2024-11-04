@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSips - Edible Coffee Stir Sticks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>EcoSips Edible Coffee Stir Sticks</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to EcoSips</h2>
+        <p>Your eco-friendly, edible coffee stir sticks. Enjoy sustainable flavor!</p>
+        <img src="images/hero.jpg" alt="Eco-friendly coffee stir sticks with natural ingredients" class="hero-image">
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/cinnamon-stick.jpg" alt="Cinnamon Coffee Stir Stick">
+                <h3>Cinnamon & Cardamom</h3>
+                <p>Infuse your coffee with warm, aromatic flavors of cinnamon and cardamom.</p>
+            </div>
+            <div class="product">
+                <img src="images/licorice-stick.jpg" alt="Licorice Chocolate Stir Stick">
+                <h3>Licorice & Chocolate</h3>
+                <p>Classic Danish licorice with a hint of rich cocoa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>Stir EcoSips edible sticks into your hot coffee or tea, and watch them dissolve into flavor.</p>
+        <img src="images/how-it-works.jpg" alt="Stirring EcoSips stick into a coffee cup">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We believe in sustainable, delicious alternatives for coffee lovers everywhere.</p>
+        <img src="images/about.jpg" alt="EcoSips team in a cozy kitchen, preparing products">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EcoSips. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
